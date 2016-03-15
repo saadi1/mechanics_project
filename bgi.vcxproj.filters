@@ -45,7 +45,7 @@
     <ClCompile Include="dibutil.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cxx">
+    <ClCompile Include="main_source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
