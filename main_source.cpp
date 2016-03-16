@@ -37,6 +37,13 @@ double gateEntry()
 	//take value of theeta
 	cout << "\nEnter the Value" << endl;
 	cin >> value;
+	if(value==90)
+	{
+		formula=0;
+		cout<<formula;
+		return 0;
+		
+	} // fix crash at angle 90
 
 	//generates value of : M/|T|
 	formula = ( num1 * cos( value * PI / 180.0 ) ) / ( powf( (0.41 - num2 * sin( value * PI / 180.0 ) ), 0.5 ) );
