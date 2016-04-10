@@ -136,13 +136,9 @@ void gatePosition( double value, int angle )
 		
 		}
 	
-	
 	}
 
 
-
-
-	
 	} // switch ends
 	
 	
